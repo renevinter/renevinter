@@ -63,7 +63,6 @@ var_dump($a<$b);
 
 <?php
 
-
 function isvalid($param1, $param2) {
     foreach ($param1 as $value) {
         if (strpos($param2, $value)) {
